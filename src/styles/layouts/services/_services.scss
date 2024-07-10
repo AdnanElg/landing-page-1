@@ -33,6 +33,11 @@
       @media screen and (max-width: 1200px) {
         font-size: 28px;
       }
+
+      @media screen and (max-width: 500px) {
+        font-size: 16px;
+        line-height: 30px;
+      }
     }
   }
 
@@ -59,10 +64,15 @@
       border-radius: 10px;
       z-index: 2;
 
+      @media screen and (max-width: 500px) {
+        width: 300px;
+      }
+
       img {
-        width: 118px !important;
+        max-width: 118px !important;
         height: 133px !important;
         margin-bottom: 10px;
+        width: 100%;
       }
 
       h3 {
@@ -78,6 +88,10 @@
         font-weight: 200;
         line-height: 30px;
         text-align: center;
+
+        @media screen and (max-width: 500px) {
+          font-size: 14px;
+        }
       }
 
       button {
@@ -121,6 +135,10 @@
       border-radius: 10px;
       z-index: 2;
 
+      @media screen and (max-width: 500px) {
+        width: 300px;
+      }
+
       img {
         width: 118px !important;
         height: 133px !important;
@@ -140,6 +158,10 @@
         font-weight: 200;
         line-height: 30px;
         text-align: center;
+
+        @media screen and (max-width: 500px) {
+          font-size: 14px;
+        }
       }
 
       button {
@@ -183,6 +205,10 @@
       border-radius: 10px;
       z-index: 2;
 
+      @media screen and (max-width: 500px) {
+        width: 300px;
+      }
+
       img {
         width: 118px !important;
         height: 133px !important;
@@ -202,6 +228,10 @@
         font-weight: 200;
         line-height: 30px;
         text-align: center;
+
+        @media screen and (max-width: 500px) {
+          font-size: 14px;
+        }
       }
 
       button {
