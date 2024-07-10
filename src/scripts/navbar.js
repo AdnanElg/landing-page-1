@@ -1,12 +1,20 @@
-//  ******* START NAVBAR MENU ********** //
+// ******* START NAVBAR ********** //
 
-const openMenu = document.querySelector("#btn-2");
-const hamburgerMenu = document.querySelector("#btn-2 > img:nth-child(1)");
-const closeMenu = document.querySelector("#btn-2 > img:nth-child(2)");
+const toggleButton = document.querySelector("#btn-2");
+const hamburgerIcon = document.querySelector("#btn-2 > img:nth-child(1)");
+const closeIcon = document.querySelector("#btn-2 > img:nth-child(2)");
+const menuLists = document.querySelector(".header__navbar__menu__lists");
 
-openMenu.addEventListener("click", () => {
-  hamburgerMenu.style.display = "none";
-  closeMenu.style.display = "block";
+toggleButton.addEventListener("click", () => {
+  if (hamburgerIcon.style.display === "none") {
+    hamburgerIcon.style.display = "block";
+    closeIcon.style.display = "none";
+    menuLists.style.display = "none";
+  } else {
+    hamburgerIcon.style.display = "none";
+    closeIcon.style.display = "block";
+    menuLists.style.display = "flex";
+  }
 });
 
-//  ******* END NAVBAR MENU ********** //
+// ******* END NAVBAR ********** //

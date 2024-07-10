@@ -7,6 +7,7 @@
   flex-direction: column;
   gap: 130px;
   position: relative;
+  z-index: 1;
 
   #rectangleY {
     position: absolute !important;
