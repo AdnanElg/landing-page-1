@@ -112,7 +112,23 @@
           display: block;
         }
 
-        img {
+        img:nth-child(1) {
+          width: 35px;
+          height: 35px;
+
+          @media screen and (max-width: 600px) {
+            width: 30px;
+            height: 30px;
+          }
+
+          @media screen and (max-width: 500px) {
+            width: 23px;
+            height: 23px;
+          }
+        }
+
+        img:nth-child(2) {
+          display: none;
           width: 35px;
           height: 35px;
 
@@ -143,6 +159,14 @@
   @media screen and (max-width: 1200px) {
     flex-direction: column;
     gap: 90px;
+  }
+
+  @media screen and (max-width: 500px) {
+    gap: 60px;
+  }
+
+  @media screen and (max-width: 375px) {
+    gap: 0px;
   }
 
   &__content {
