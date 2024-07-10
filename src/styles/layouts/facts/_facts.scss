@@ -8,6 +8,10 @@
   margin-bottom: 100px;
   padding-top: 50px;
 
+  @media screen and (max-width: 1200px) {
+    flex-direction: column;
+  }
+
   &__data {
     display: flex;
     justify-content: center;

@@ -1,0 +1,72 @@
+// ******* START SECTION TESTIMONIAL 2 ********** //
+.section__testimonial-2 {
+  background-image: url("../../../../src/assets/svg/background-2.svg") !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 635px;
+  background-color: #473bf0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    span {
+      color: #68d585;
+      font-size: 13px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    h5 {
+      font-size: 32px;
+      color: #ffffff;
+      font-weight: 500;
+      line-height: 45px;
+      text-align: center;
+
+      @media screen and (max-width: 1200px) {
+        font-size: 28px;
+      }
+    }
+  }
+
+  &__picture {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 76px;
+      height: 76px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    span {
+      font-size: 17px;
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    p {
+      font-size: 15px;
+      font-weight: 100;
+      color: #ffffff;
+      opacity: 0.8;
+    }
+  }
+}
+// ******* END SECTION TESTIMONIAL 2 ********** //

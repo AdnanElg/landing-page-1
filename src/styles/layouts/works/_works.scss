@@ -1,0 +1,211 @@
+// ******* START SECTION WORKS ********** //
+.section__works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 130px;
+  gap: 70px;
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
+    span {
+      font-size: 13px;
+      color: #f64b4b;
+      font-weight: bold;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    h4 {
+      font-size: 36px;
+      font-weight: 500;
+      color: #161c2d;
+      text-align: center;
+      line-height: 50px;
+
+      @media screen and (max-width: 1200px) {
+        font-size: 28px;
+      }
+    }
+  }
+
+  &__cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__container {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 60px;
+      margin-bottom: 70px;
+
+      @media screen and (max-width: 1200px) {
+        flex-direction: column;
+      }
+
+      #card-works-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        @media screen and (max-width: 1200px) {
+          justify-content: center;
+          align-items: center;
+        }
+
+        img {
+          max-width: 500px;
+          height: 540px;
+          object-fit: cover;
+          width: 100%;
+
+          @media screen and (max-width: 500px) {
+            font-size: 28px;
+            width: 85%;
+          }
+        }
+      }
+
+      #card-works-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        @media screen and (max-width: 1200px) {
+          justify-content: center;
+          align-items: center;
+        }
+
+        img {
+          max-width: 500px;
+          height: 342px;
+          object-fit: cover;
+          width: 100%;
+
+          @media screen and (max-width: 500px) {
+            width: 85%;
+          }
+        }
+      }
+
+      #card-works-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        @media screen and (max-width: 1200px) {
+          justify-content: center;
+          align-items: center;
+        }
+
+        img {
+          max-width: 500px;
+          height: 346px;
+          width: 100%;
+          object-fit: cover;
+
+          @media screen and (max-width: 500px) {
+            width: 85%;
+          }
+        }
+      }
+
+      #card-works-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: -195px;
+
+        @media screen and (max-width: 1200px) {
+          justify-content: center;
+          align-items: center;
+          margin-top: 0px;
+        }
+
+        img {
+          max-width: 500px;
+          width: 100%;
+          height: 540px;
+          object-fit: cover;
+
+          @media screen and (max-width: 500px) {
+            width: 85%;
+          }
+        }
+      }
+
+      &__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 10px;
+        padding-left: 25px;
+        padding-top: 35px;
+
+        @media screen and (max-width: 1200px) {
+          padding-left: 0px;
+          justify-content: center;
+          align-items: center;
+        }
+
+        p {
+          font-size: 15px;
+          font-weight: 200;
+          color: #161c2d;
+        }
+
+        h5 {
+          font-size: 24px;
+          font-weight: bold;
+          color: #161c2d;
+        }
+      }
+    }
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      background-color: #ffffff00;
+      border: none;
+      color: #473bf0;
+      font-size: 21px;
+      font-weight: bold;
+      gap: 30px;
+      cursor: pointer;
+
+      a {
+        text-decoration: none;
+        color: #473bf0;
+
+        img {
+          width: 18px;
+          height: 18px;
+        }
+      }
+    }
+  }
+}
+// ******* END SECTION WORKS ********** //

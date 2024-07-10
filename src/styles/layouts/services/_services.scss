@@ -29,6 +29,10 @@
       font-weight: bold;
       color: #161c2d;
       line-height: 45px;
+
+      @media screen and (max-width: 1200px) {
+        font-size: 28px;
+      }
     }
   }
 
@@ -38,6 +42,10 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+
+    @media screen and (max-width: 1200px) {
+      flex-direction: column;
+    }
 
     #card-1 {
       display: flex;
@@ -75,7 +83,7 @@
       button {
         display: flex;
         justify-content: center;
-        align-self: center;
+        align-items: center;
         flex-direction: row;
         background-color: #ffffff00;
         border: none;
@@ -86,9 +94,17 @@
         cursor: pointer;
         margin-top: 30px;
 
-        img {
-          width: 18px !important;
-          height: 18px !important;
+        a {
+          display: flex;
+          flex-direction: row;
+          gap: 30px;
+          text-decoration: none;
+          color: #ffff;
+
+          img {
+            width: 18px !important;
+            height: 18px !important;
+          }
         }
       }
     }
@@ -129,7 +145,7 @@
       button {
         display: flex;
         justify-content: center;
-        align-self: center;
+        align-items: center;
         flex-direction: row;
         background-color: #ffffff00;
         border: none;
@@ -140,9 +156,17 @@
         cursor: pointer;
         margin-top: 30px;
 
-        img {
-          width: 18px !important;
-          height: 18px !important;
+        a {
+          display: flex;
+          flex-direction: row;
+          gap: 30px;
+          text-decoration: none;
+          color: #ffff;
+
+          img {
+            width: 18px !important;
+            height: 18px !important;
+          }
         }
       }
     }
@@ -183,7 +207,7 @@
       button {
         display: flex;
         justify-content: center;
-        align-self: center;
+        align-items: center;
         flex-direction: row;
         background-color: #ffffff00;
         border: none;
@@ -194,9 +218,17 @@
         cursor: pointer;
         margin-top: 30px;
 
-        img {
-          width: 18px !important;
-          height: 18px !important;
+        a {
+          display: flex;
+          flex-direction: row;
+          gap: 30px;
+          text-decoration: none;
+          color: #ffff;
+
+          img {
+            width: 18px !important;
+            height: 18px !important;
+          }
         }
       }
     }
@@ -204,6 +236,10 @@
     #icon-decoration {
       position: relative;
       z-index: 1;
+
+      @media screen and (max-width: 1200px) {
+        display: none;
+      }
 
       img {
         height: 80px;
