@@ -1,8 +1,11 @@
+// ******** IMPORT VARIABLES COLORS *********** //
+@use "../../utils/variables";
+
 // ******* START SECTION FEATURES ********** //
 .section__features {
   width: 100%;
   height: auto;
-  background-color: #f4f7fa;
+  background-color: variables.$cloudWhite;
   display: flex;
   flex-direction: column;
   gap: 130px;
@@ -32,7 +35,7 @@
     span {
       font-size: 13px;
       font-weight: bold;
-      color: #f64b4b;
+      color: variables.$cherryRed;
       text-align: center;
       text-transform: uppercase;
     }
@@ -40,7 +43,7 @@
     h4 {
       font-size: 36px;
       font-weight: bold;
-      color: #161c2d;
+      color: variables.$midnightBlue;
       line-height: 45px;
       text-align: center;
 
@@ -106,7 +109,7 @@
 
           h4 {
             font-size: 21px;
-            color: #161c2d;
+            color: variables.$midnightBlue;
             font-weight: bold;
 
             @media screen and (max-width: 375px) {
@@ -117,7 +120,7 @@
           p {
             font-size: 17px;
             line-height: 30px;
-            color: #161c2d;
+            color: variables.$midnightBlue;
             font-weight: 200;
 
             @media screen and (max-width: 375px) {
@@ -135,7 +138,7 @@
     margin: 0px auto;
 
     hr {
-      border-top: 1px solid #e7e9ec;
+      border-top: 1px solid variables.$foggyGray;
     }
   }
 
@@ -166,7 +169,7 @@
       h4 {
         font-size: 32px;
         font-weight: bold;
-        color: #161c2d;
+        color: variables.$midnightBlue;
 
         @media screen and (max-width: 1200px) {
           text-align: center;
@@ -182,7 +185,7 @@
       p {
         font-size: 19px;
         font-weight: 200;
-        color: #161c2d;
+        color: variables.$midnightBlue;
         line-height: 30px;
 
         @media screen and (max-width: 1200px) {
@@ -207,12 +210,12 @@
       align-items: center;
 
       button {
-        background-color: #473bf0;
+        background-color: variables.$royalBlue;
         width: 200px;
         height: 50px;
         border-radius: 10px;
         border: none;
-        color: #ffff;
+        color: variables.$pureWhite;
         font-size: 16px;
         font-weight: 600;
         cursor: pointer;
@@ -225,7 +228,7 @@
 
         a {
           text-decoration: none;
-          color: #ffff;
+          color: variables.$pureWhite;
         }
       }
     }

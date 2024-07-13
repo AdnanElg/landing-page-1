@@ -1,3 +1,6 @@
+// ******** IMPORT VARIABLES COLORS *********** //
+@use "../../utils/variables";
+
 // ******* START SECTION WORKS ********** //
 .section__works {
   display: flex;
@@ -18,7 +21,7 @@
 
     span {
       font-size: 13px;
-      color: #f64b4b;
+      color: variables.$cherryRed;
       font-weight: bold;
       text-align: center;
       text-transform: uppercase;
@@ -27,7 +30,7 @@
     h4 {
       font-size: 36px;
       font-weight: 500;
-      color: #161c2d;
+      color: variables.$midnightBlue;
       text-align: center;
       line-height: 50px;
 
@@ -176,7 +179,7 @@
         p {
           font-size: 15px;
           font-weight: 200;
-          color: #161c2d;
+          color: variables.$midnightBlue;
 
           @media screen and (max-width: 1200px) {
             text-align: center;
@@ -186,7 +189,7 @@
         h5 {
           font-size: 24px;
           font-weight: bold;
-          color: #161c2d;
+          color: variables.$midnightBlue;
 
           @media screen and (max-width: 1200px) {
             text-align: center;
@@ -210,9 +213,9 @@
       justify-content: center;
       align-items: center;
       flex-direction: row;
-      background-color: #ffffff00;
+      background-color: variables.$transparentWhite;
       border: none;
-      color: #473bf0;
+      color: variables.$royalBlue;
       font-size: 21px;
       font-weight: bold;
       gap: 30px;
@@ -220,7 +223,7 @@
 
       a {
         text-decoration: none;
-        color: #473bf0;
+        color: variables.$royalBlue;
 
         img {
           width: 18px;

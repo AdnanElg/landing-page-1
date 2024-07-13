@@ -1,3 +1,6 @@
+// ******** IMPORT VARIABLES COLORS *********** //
+@use "../../utils/variables";
+
 // ******* START SECTION SERVICIES ********** //
 .section__services {
   margin-top: 100px;
@@ -17,7 +20,7 @@
 
     span {
       text-align: center;
-      color: #f64b4b;
+      color: variables.$cherryRed;
       font-size: 13px;
       text-transform: uppercase;
       font-weight: 600;
@@ -28,7 +31,7 @@
       text-align: center;
       font-size: 36px;
       font-weight: bold;
-      color: #161c2d;
+      color: variables.$midnightBlue;
       line-height: 45px;
 
       @media screen and (max-width: 1200px) {
@@ -60,7 +63,7 @@
       justify-content: center;
       align-items: center;
       gap: 30px;
-      background-color: #67d684;
+      background-color: variables.$mintGreen;
       width: 350px;
       height: 485px;
       border-radius: 10px;
@@ -80,12 +83,12 @@
       h3 {
         font-size: 24px;
         font-weight: bold;
-        color: #ffff;
+        color: variables.$pureWhite;
         text-align: center;
       }
 
       p {
-        color: #ffff;
+        color: variables.$pureWhite;
         font-size: 17px;
         font-weight: 200;
         line-height: 30px;
@@ -101,9 +104,9 @@
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        background-color: #ffffff00;
+        background-color: variables.$transparentWhite;
         border: none;
-        color: #ffff;
+        color: variables.$pureWhite;
         font-size: 17px;
         font-weight: bold;
         gap: 30px;
@@ -115,7 +118,7 @@
           flex-direction: row;
           gap: 30px;
           text-decoration: none;
-          color: #ffff;
+          color: variables.$pureWhite;
 
           img {
             width: 18px !important;
@@ -131,7 +134,7 @@
       justify-content: center;
       align-items: center;
       gap: 30px;
-      background-color: #473bf0;
+      background-color: variables.$royalBlue;
       width: 350px;
       height: 485px;
       border-radius: 10px;
@@ -150,12 +153,12 @@
       h3 {
         font-size: 24px;
         font-weight: bold;
-        color: #ffff;
+        color: variables.$pureWhite;
         text-align: center;
       }
 
       p {
-        color: #ffff;
+        color: variables.$pureWhite;
         font-size: 17px;
         font-weight: 200;
         line-height: 30px;
@@ -171,9 +174,9 @@
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        background-color: #ffffff00;
+        background-color: variables.$transparentWhite;
         border: none;
-        color: #ffff;
+        color: variables.$pureWhite;
         font-size: 17px;
         font-weight: bold;
         gap: 30px;
@@ -185,7 +188,7 @@
           flex-direction: row;
           gap: 30px;
           text-decoration: none;
-          color: #ffff;
+          color: variables.$pureWhite;
 
           img {
             width: 18px !important;
@@ -201,7 +204,7 @@
       justify-content: center;
       align-items: center;
       gap: 30px;
-      background-color: #f64a4b;
+      background-color: variables.$cherryRed;
       width: 350px;
       height: 485px;
       border-radius: 10px;
@@ -220,12 +223,12 @@
       h3 {
         font-size: 24px;
         font-weight: bold;
-        color: #ffff;
+        color: variables.$pureWhite;
         text-align: center;
       }
 
       p {
-        color: #ffff;
+        color: variables.$pureWhite;
         font-size: 17px;
         font-weight: 200;
         line-height: 30px;
@@ -241,9 +244,9 @@
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        background-color: #ffffff00;
+        background-color: variables.$transparentWhite;
         border: none;
-        color: #ffff;
+        color: variables.$pureWhite;
         font-size: 17px;
         font-weight: bold;
         gap: 30px;
@@ -255,7 +258,7 @@
           flex-direction: row;
           gap: 30px;
           text-decoration: none;
-          color: #ffff;
+          color: variables.$pureWhite;
 
           img {
             width: 18px !important;

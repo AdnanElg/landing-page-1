@@ -1,3 +1,6 @@
+// ******** IMPORT VARIABLES COLORS *********** //
+@use "../../utils/variables";
+
 // ******* START SECTION FACTS ********** //
 .section__facts {
   display: flex;
@@ -21,7 +24,7 @@
     gap: 30px;
 
     h4 {
-      color: #161c2d;
+      color: variables.$midnightBlue;
       font-weight: bold;
       text-align: center;
       font-size: 48px;

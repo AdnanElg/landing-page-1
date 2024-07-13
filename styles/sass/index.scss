@@ -1,11 +1,12 @@
-// Import modules:
-@import "./vendor/normalize";
-@import "./layouts/header/header";
-@import "./layouts/services/services.scss";
-@import "./layouts/testimonial-1/testimonial-1";
-@import "./layouts/about/about";
-@import "./layouts/facts/facts";
-@import "./layouts/features/features";
-@import "./layouts/works/works";
-@import "./layouts/testimonial-2/testimonial-2";
-@import "./layouts/footer/footer";
+// ******** START IMPORTS MODULES *********** //
+@use "./vendor/normalize";
+@use "./layouts/header/header";
+@use "./layouts/services/services.scss";
+@use "./layouts/testimonial-1/testimonial-1";
+@use "./layouts/about/about";
+@use "./layouts/facts/facts";
+@use "./layouts/features/features";
+@use "./layouts/works/works";
+@use "./layouts/testimonial-2/testimonial-2";
+@use "./layouts/footer/footer";
+// ******** END IMPORTS MODULES *********** //

@@ -1,3 +1,6 @@
+// ******** IMPORT VARIABLES COLORS *********** //
+@use "../../utils/variables";
+
 // ******* START SECTION ABOUT ********** //
 .section__about {
   display: flex;
@@ -45,14 +48,14 @@
         span {
           font-size: 13px;
           font-weight: bold;
-          color: #f64b4b;
+          color: variables.$cherryRed;
           text-transform: uppercase;
         }
 
         h4 {
           font-size: 36px;
           font-weight: 500;
-          color: #161c2d;
+          color: variables.$midnightBlue;
           line-height: 48px;
 
           @media screen and (max-width: 1200px) {
@@ -146,7 +149,7 @@
       }
 
       &__text {
-        color: #161c2d;
+        color: variables.$midnightBlue;
         font-size: 17px;
         font-weight: 200;
         line-height: 30px;
@@ -169,7 +172,7 @@
     margin-bottom: 130px;
 
     hr {
-      border-top: 1px solid #e7e9ec;
+      border-top: 1px solid variables.$foggyGray;
     }
   }
 }
