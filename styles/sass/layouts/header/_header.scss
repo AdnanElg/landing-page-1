@@ -1,6 +1,9 @@
 // ******** IMPORT VARIABLES COLORS *********** //
 @use "../../utils/variables";
 
+// ******** IMPORT COMPONENT BUTTON *********** //
+@use "../../components/button";
+
 // ******* START HEADER ********** //
 .header {
   background-image: url("../../../../../landing-page-1/assets/svg/background-1.svg") !important;
@@ -116,23 +119,10 @@
       position: relative;
 
       #btn-1 {
-        background-color: variables.$royalBlue;
-        width: 200px;
-        height: 50px;
-        border-radius: 10px;
-        border: none;
-        color: variables.$pureWhite;
-        font-size: 16px;
-        font-weight: 600;
-        cursor: pointer;
+        @include button.button-start;
 
         @media screen and (max-width: 1200px) {
           display: none;
-        }
-
-        a {
-          text-decoration: none;
-          color: variables.$pureWhite;
         }
       }
 
@@ -268,25 +258,12 @@
     }
 
     button {
-      background-color: variables.$royalBlue;
-      width: 200px;
-      height: 50px;
-      border-radius: 10px;
-      border: none;
-      color: variables.$pureWhite;
-      font-size: 16px;
-      font-weight: 600;
-      cursor: pointer;
+      @include button.button-start;
 
       @media screen and (max-width: 500px) {
         height: 40px;
         width: 170px;
         font-size: 14px;
-      }
-
-      a {
-        text-decoration: none;
-        color: variables.$pureWhite;
       }
     }
   }

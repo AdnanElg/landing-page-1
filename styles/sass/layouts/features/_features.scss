@@ -1,6 +1,9 @@
 // ******** IMPORT VARIABLES COLORS *********** //
 @use "../../utils/variables";
 
+// ******** IMPORT COMPONENT BUTTON *********** //
+@use "../../components/button";
+
 // ******* START SECTION FEATURES ********** //
 .section__features {
   width: 100%;
@@ -210,25 +213,12 @@
       align-items: center;
 
       button {
-        background-color: variables.$royalBlue;
-        width: 200px;
-        height: 50px;
-        border-radius: 10px;
-        border: none;
-        color: variables.$pureWhite;
-        font-size: 16px;
-        font-weight: 600;
-        cursor: pointer;
+        @include button.button-start;
 
         @media screen and (max-width: 500px) {
           height: 40px;
           width: 170px;
           font-size: 14px;
-        }
-
-        a {
-          text-decoration: none;
-          color: variables.$pureWhite;
         }
       }
     }

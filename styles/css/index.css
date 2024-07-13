@@ -134,14 +134,14 @@
   font-weight: 600;
   cursor: pointer;
 }
+.header__navbar__btn #btn-1 a {
+  text-decoration: none;
+  color: white;
+}
 @media screen and (max-width: 1200px) {
   .header__navbar__btn #btn-1 {
     display: none;
   }
-}
-.header__navbar__btn #btn-1 a {
-  text-decoration: none;
-  color: white;
 }
 .header__navbar__btn #btn-2 {
   display: none;
@@ -287,16 +287,16 @@
   font-weight: 600;
   cursor: pointer;
 }
+.container__hero__content button a {
+  text-decoration: none;
+  color: white;
+}
 @media screen and (max-width: 500px) {
   .container__hero__content button {
     height: 40px;
     width: 170px;
     font-size: 14px;
   }
-}
-.container__hero__content button a {
-  text-decoration: none;
-  color: white;
 }
 .container__hero__picture {
   display: flex;
@@ -1107,16 +1107,16 @@
   font-weight: 600;
   cursor: pointer;
 }
+.section__features__button__btn button a {
+  text-decoration: none;
+  color: white;
+}
 @media screen and (max-width: 500px) {
   .section__features__button__btn button {
     height: 40px;
     width: 170px;
     font-size: 14px;
   }
-}
-.section__features__button__btn button a {
-  text-decoration: none;
-  color: white;
 }
 
 .section__works {
@@ -1517,16 +1517,16 @@
   font-weight: 600;
   cursor: pointer;
 }
+.footer__content__btn button a {
+  text-decoration: none;
+  color: white;
+}
 @media screen and (max-width: 500px) {
   .footer__content__btn button {
     height: 40px;
     width: 170px;
     font-size: 14px;
   }
-}
-.footer__content__btn button a {
-  text-decoration: none;
-  color: white;
 }
 .footer__links {
   display: flex;

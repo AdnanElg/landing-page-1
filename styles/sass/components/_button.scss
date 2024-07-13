@@ -1,0 +1,23 @@
+// ******** IMPORT VARIABLES COLORS *********** //
+@use "../utils/variables";
+
+// ******** START COMPONENT BUTTON *********** //
+
+@mixin button-start {
+  background-color: variables.$royalBlue;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  color: variables.$pureWhite;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+
+  a {
+    text-decoration: none;
+    color: variables.$pureWhite;
+  }
+}
+
+// ******** END COMPONENT BUTTON *********** //
