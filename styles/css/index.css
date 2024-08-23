@@ -10,7 +10,7 @@
 }
 
 .header {
-  background-image: url("../../../../../landing-page-1/assets/svg/background-1.svg") !important;
+  background-image: url("../../../../assets/svg/background-1.svg") !important;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1347,7 +1347,7 @@
 }
 
 .section__testimonial-2 {
-  background-image: url("../../../../../landing-page-1/assets/svg/background-2.svg") !important;
+  background-image: url("../../../../assets/svg/background-2.svg") !important;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
